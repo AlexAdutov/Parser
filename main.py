@@ -51,20 +51,3 @@ if __name__ == '__main__':
 
     with open("data.json", 'w', encoding='utf-8') as file:
         json.dump(finish_list, file, ensure_ascii=False, indent=3)
-
-
-
-
-
-
-
-
-
-
-
-    # link = soup.find_all(class_="serp-item__title")
-    # city = soup.find_all(attrs={'class': "bloko-text", 'data-qa': "vacancy-serp__vacancy-address"})
-    # salary = soup.find_all(attrs={'data-qa': "vacancy-serp__vacancy-compensation"})
-    # company = soup.find_all(attrs={'data-qa': "vacancy-serp__vacancy-employer"})
-
-    #pprint(link)
